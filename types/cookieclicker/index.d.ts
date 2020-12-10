@@ -3002,7 +3002,11 @@ declare namespace Game {
     export let choiceSelectorSelected: number;
 
     export interface Mod {
+<<<<<<< HEAD
         init?: () => void;
+=======
+        init: () => void;
+>>>>>>> 18030ba3bed0bb357fae98b7ffc39f146cb3f307
         save?: () => string;
         load?: (data: string) => void;
         id?: number;
